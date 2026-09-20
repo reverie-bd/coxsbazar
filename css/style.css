@@ -2828,6 +2828,18 @@ ul { list-style: none; }
   transform: translateY(-3px);
 }
 
+.editorial-block + .editorial-block {
+  margin-top: var(--space-16);
+}
+.editorial-link {
+  color: var(--ocean);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.editorial-link:hover {
+  opacity: 0.85;
+}
+
 /* ═══ LIGHT-THEME SECTION TREATMENTS ═══ */
 .atmo-dark {
   background: var(--surface-mid) !important;
